@@ -1,0 +1,2 @@
+Score moyen pour la génération 2 : 37.95676287866395
+Coordonnées du meilleur mobile [ 100,000000.2 , 96,333971.2 ]

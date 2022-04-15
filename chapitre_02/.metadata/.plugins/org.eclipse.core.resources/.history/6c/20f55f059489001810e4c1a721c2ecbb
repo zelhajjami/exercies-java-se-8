@@ -1,0 +1,25 @@
+package chapitre_02_04;
+
+public class Principale {
+
+	public static void main(String[] args) {
+
+		double x = 0.0;
+		for( int i=0; i<10; i++)
+		{
+			bouge(i, x);
+		} 
+	}
+
+	public static void bouge(int iteration, double x) {
+		
+		
+		x = x + 1.0;
+		
+		System.out.println("pour l'itération "+iteration+ "x vaut "+x);
+		
+		if(x>5) {
+			x=0;
+		}
+	}
+}

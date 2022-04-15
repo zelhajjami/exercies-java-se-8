@@ -1,0 +1,45 @@
+package metier;
+
+import static java.lang.Math.random;
+import static java.lang.Math.sin;
+import static java.lang.Math.cos;
+
+public class MobileIntelligent extends Mobile{
+
+	private Matrice pilote = new Matrice(4,2);
+	
+	public MobileIntelligent(String nom) {
+		super(nom);
+	}
+	
+	@Override
+	public void bouge(int iteration ) {
+		
+		Matrice capteurs = new Matrice(1,4);
+		capteurs.setData(0, 0, random());
+		capteurs.setData(0, 1, random());
+		capteurs.setData(0, 2, random());
+		capteurs.setData(0, 3, random());
+		
+		Matrice dir = capteurs.multiplie(pilote);
+		
+		x = x + dir.getData(0,0) * cos(dir.getData(0, 1));
+		y = y + dir.getData(0,0) * sin(dir.getData(0, 1));
+		
+		System.out.println("pour l'itération "+iteration+ " le mobile "+getNom() +" est en ["+x+","+y+"]");
+		
+		if(x>100) {
+			x=100;
+		}
+		if(x<0) {
+			x=0;
+		}
+		if(y>100) {
+			y=100;
+		}
+		if(y<0) {
+			y=0;
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package metier;
+
+public class MobileIntelligent extends Mobile {
+
+	public MobileIntelligent(String nom) {
+		super(nom);
+	}
+
+}

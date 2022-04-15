@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+R:\FR_1935\Fichiers_d_exercice\chapitre_05\.metadata\.plugins\org.eclipse.jdt.core
+806650587.index
+3726304247.index
+2837304161.index

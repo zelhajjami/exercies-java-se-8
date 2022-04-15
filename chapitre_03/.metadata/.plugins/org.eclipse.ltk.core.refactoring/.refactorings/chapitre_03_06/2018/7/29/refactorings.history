@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 source folders to &apos;chapitre_03_07&apos;&#x0D;&#x0A;- Original project: &apos;chapitre_03_06&apos;&#x0D;&#x0A;- Destination element: &apos;chapitre_03_07&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     chapitre_03_06/src&#x0D;&#x0A;     chapitre_03_06/test" description="Copy source folders" destination="=chapitre_03_07" element1="/src" element2="/test" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="2" stamp="1531821816517" version="1.0"/>
+</session>

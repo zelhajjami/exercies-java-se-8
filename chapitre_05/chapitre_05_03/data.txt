@@ -1,0 +1,2 @@
+Score moyen pour la génération 0 : 4.038482019991536
+Coordonnées du meilleur mobile [ 84,511509.2 , 100,000000.2 ]

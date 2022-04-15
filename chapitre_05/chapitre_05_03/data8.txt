@@ -1,0 +1,2 @@
+Score moyen pour la génération 8 : 13.59484906576161
+Coordonnées du meilleur mobile [ 90,951287.2 , 100,000000.2 ]

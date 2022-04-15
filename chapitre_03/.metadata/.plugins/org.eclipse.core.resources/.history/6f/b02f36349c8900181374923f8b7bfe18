@@ -1,0 +1,26 @@
+package chapitre_03_03;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import metier.Population;
+
+import static java.lang.Math.random;
+
+public class Principale {
+	
+	public static void main(String[] args) {
+
+
+		
+		Population pop = new Population(50);
+		
+	
+		for( int i=0; i<10; i++)
+		{
+			pop.deplaceLesMobiles(i);
+		} 
+	}
+
+	
+}

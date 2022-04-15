@@ -1,0 +1,2 @@
+Score moyen pour la génération 9 : 107.59589539672606
+Coordonnées du meilleur mobile [ 100,000000.2 , 97,934035.2 ]
